@@ -1,3 +1,25 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container main">
+
+  <app-menubar></app-menubar>
+
+  <div class="row">
+    <div class="col-md-12">
+      <!--
+      <h4 class="text-center">
+        A Web Developer
+      </h4>
+      -->
+    </div>
+  </div>
+
+  <div class="row">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">This is the footer. Thank you</p>
+  </div>
+</footer>
